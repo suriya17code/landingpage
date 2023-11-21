@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(184, 119, 22);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +34,20 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media(max-width:1000px){
+  .cards{
+width: 45px;
+  }
+}
+@media(max-width:750px){
+  .cards{
+width: 100px;
+  }
+}
+@media(max-width:1150px){
+  .cards{
+width: 35px;
   }
 }
